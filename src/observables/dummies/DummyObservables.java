@@ -1,12 +1,12 @@
-package observables;
+package observables.dummies;
 
 
 import rx.Observable;
 import rx.Subscriber;
 
-import java.io.PrintWriter;
-import java.io.StringWriter;
 import java.util.Arrays;
+
+import static observables.utils.ObservableUtil.*;
 
 /**
  * Created by Jonathan Brites on 19/11/2016.
@@ -69,17 +69,6 @@ public class DummyObservables {
         log("Before subscription");
         observable.subscribe(subscriber);
         log("After subscription");
-    }
-
-    private static void log(final String string){
-        System.out.println(Thread.currentThread() + " :" + string);
-    }
-
-    private static String createStringFromStacktrace(final Throwable throwable){
-        final StringWriter sw = new StringWriter();
-        final PrintWriter pw = new PrintWriter(sw);
-        throwable.printStackTrace(pw);
-        return sw.toString();
     }
 
     private static void subscribeToRangeObservableWithLambas() {
