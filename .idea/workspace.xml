@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb8bb07b-6d91-4d28-b212-402370fa854c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/observables/DummyObservables.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/observables/DummyObservables.java" afterPath="$PROJECT_DIR$/src/observables/DummyObservables.java" />
     </list>
     <ignored path="ExperimentingWithRxJava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,25 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DummyObservables.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DummyObservables.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/observables/DummyObservables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+            <state relative-caret-position="495">
+              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#756#757#0" expanded="true" />
-                <element signature="e#1899#1900#0" expanded="true" />
-                <element signature="e#1973#1974#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1991#1992#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -76,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$USER_HOME$/Downloads/rxjava-1.2.2.jar!/rx/Observable.class" />
-        <option value="$PROJECT_DIR$/src/observables/DummyObservables.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/observables/DummyObservables.java" />
       </list>
     </option>
   </component>
@@ -638,12 +635,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1479562588126</updated>
-      <workItem from="1479562591418" duration="6839000" />
+      <workItem from="1479562591418" duration="6929000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6839000" />
+    <option name="totallyTimeSpent" value="6929000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -733,27 +730,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/observables/DummyObservables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#1899#1900#0" expanded="true" />
-            <element signature="e#1973#1974#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/observables/DummyObservables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

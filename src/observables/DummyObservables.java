@@ -12,7 +12,7 @@ import java.io.StringWriter;
  */
 public class DummyObservables {
     public static void main(String[] args) {
-        Subscriber<String> subscriber = new Subscriber<String>() {
+        final Subscriber<String> subscriber = new Subscriber<String>() {
             @Override
             public void onCompleted() {
                 log("I'm done");
@@ -51,7 +51,7 @@ public class DummyObservables {
         subscribeToObservable(errorObservable, subscriber);
     }
 
-    private static void subscribeToObservable(Observable<String> observable, Subscriber<String> subscriber){
+    private static void subscribeToObservable(final Observable<String> observable, final Subscriber<String> subscriber){
         log("Before subscription");
         observable.subscribe(subscriber);
         log("After subscription");
