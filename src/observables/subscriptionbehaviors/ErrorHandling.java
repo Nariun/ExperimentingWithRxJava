@@ -18,6 +18,8 @@ public class ErrorHandling {
                 subscriber.onError(e);
             }
         });
+//        Observable<String> observable = Observable.fromCallable(() -> doSomethingThatThrowsAnException());
+
 
         observable.subscribe(value -> log(value),
                 throwable -> log(createStringFromStacktrace(throwable)),
