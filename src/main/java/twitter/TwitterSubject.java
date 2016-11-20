@@ -66,6 +66,6 @@ public class TwitterSubject {
     }
 
     public Observable<Status> observe(){
-        return subject;
+        return subject.serialize();
     }
 }
