@@ -12,6 +12,7 @@ import java.io.IOException;
  * Created by Jonathan Brites on 20/11/2016.
  */
 public class TwitterSubject {
+    //PublishSubject is used to have multiple subscribers using 1 http connection, without caching
     private final PublishSubject<Status> subject = PublishSubject.create();
 
     public TwitterSubject(){

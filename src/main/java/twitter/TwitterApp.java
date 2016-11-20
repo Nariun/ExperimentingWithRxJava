@@ -18,8 +18,11 @@ public class TwitterApp {
     }
 
     public static void handleStatus(final Status status){
-        final StringBuilder sb = new StringBuilder();
-        System.out.println("Text: " + status.getText());
-        System.out.println("User: " + status.getUser().getName());
+        final StringBuilder sb = new StringBuilder("[Tweet]{");
+        sb.append("Text: " + status.getText());
+        sb.append(System.lineSeparator());
+        sb.append("User: " + status.getUser().getName() + " -> " + status.getUser().getDescription());
+        sb.append("}");
+        System.out.println(sb.toString());
     }
 }
