@@ -10,5 +10,14 @@ import static observables.utils.ObservableUtil.log;
 public class DoNotCommitThis {
     public static void main(String[] args) {
 
+
+       /* Observable<T> someData = Observable.create(s -> {
+            getDataFromServerWithCallback(args, data -> {
+                s.onNext(data);
+                s.onCompleted();
+            });
+        });*/
+
+
     }
 }
